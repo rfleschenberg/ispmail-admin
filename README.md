@@ -3,6 +3,8 @@ ispmail-admin
 
 A Django-based admin interface for <https://workaround.org/ispmail>.
 
+Currently under development, not ready for use yet.
+
 ```
 git clone git@github.com:rfleschenberg/ispmail-admin
 cd ispmail-admin
