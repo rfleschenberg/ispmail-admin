@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from ispmail_management.models import (VirtualAliases, VirtualDomains,
+                                       VirtualUsers)
+
+
+admin.site.register(VirtualAliases)
+admin.site.register(VirtualDomains)
+admin.site.register(VirtualUsers)

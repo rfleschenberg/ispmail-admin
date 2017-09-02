@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'widget_tweaks',
     'ispmail_auth',
+    'ispmail_management',
 ]
 
 MIDDLEWARE = [
