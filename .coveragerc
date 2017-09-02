@@ -1,0 +1,11 @@
+[run]
+source = .
+branch = True
+
+[report]
+show_missing = True
+#fail_under = 100
+omit =
+    manage.py
+    */migrations/*
+    */wsgi.py
