@@ -101,7 +101,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = 'auth.User'
+AUTH_USER_MODEL = 'ispmail_auth.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
