@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'ispmail_admin.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://ispmail:ispmail@localhost/ispmail'
+        default='mysql://ispmail:ispmail@localhost/ispmail'
     ),
 }
 
